@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+section {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.image-1 {
+    background-image: url("assets/img_1.jpg");
+}
+
+section.image-2 {
+    background-image: url("assets/img_2.jpg");
+}
+
+section.image-3 {
+    background-image: url("assets/img_3.jpg");
+}
+
+section.image-4 {
+    background-image: url("assets/img_4.jpg");
+}
+
+section.image-5 {
+    background-image: url("assets/img_5.jpg");
+}
+
+section.image-6 {
+    background-image: url("assets/img_6.jpg");
+}
+
+section.image-7 {
+    background-image: url("assets/img_7.jpg");
+}
+
+section.image-8 {
+    background-image: url("assets/img_8.jpg");
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 8px;
+}
